@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(197, 167, 130);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    height: 40px;
+}
+nav{
+    padding: 0.5rem;
+    background-color: rgb(197, 167, 130);
+    text-align: center;
+    height: 40px;
+}
+nav ul li{
+display: inline;
+list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+#favoritos{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+#favoritos h2{
+    width: 100%;
+    font-size: 150%;
+    font-weight: 700;
+}
+#favoritos .product{
+    box-shadow: 0 0 10px grey;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+#hombres{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+}
+#hombres h2{
+    width: 100%;
+    font-size: 150%;
+    font-weight: 700;
+}
+#hombres .product{
+    box-shadow: 0 0 10px grey;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+#mujeres{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: burlywood;
+    padding: 1rem;
+}
+#mujeres h2{
+    width: 100%;
+    font-size: 150%;
+    font-weight: 700;
+}
+#mujeres .product{
+    box-shadow: 0 0 10px grey;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+#ninos{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(158, 129, 91);
+    padding: 1rem;
+}
+#ninos h2{
+    width: 100%;
+    font-size: 150%;
+    font-weight: 700;
+}
+#ninos .product{
+    box-shadow: 0 0 10px grey;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+footer{
+    background-color: rgb(197, 167, 130);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

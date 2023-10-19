@@ -1,0 +1,18 @@
+#Texto1{
+    font-size: small;
+}
+
+#imagen1{
+    float: inline-end;
+    margin-left: 90%;
+}
+
+#texto2{
+    margin-left: 25%;
+    font-size: x-large;
+}
+
+#imagen2{
+float: inline-start;
+margin-bottom: 100%;
+}

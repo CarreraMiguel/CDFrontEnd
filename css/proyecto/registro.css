@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    background-image: url(/assets.img/proyecto/background_register.jpg);
+}
+#contenedor{
+    background-color: rgb(202, 142, 122);
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+h1{
+    text-align: left;
+    font-weight: 800;
+}
+h2{
+    margin: 0;
+    text-align: left;
+    font-weight: 700;
+}
+input{
+    padding: 0.3rem;
+    margin: 10px;
+    width: 90%;
+}
+.container_section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#direccion_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+select{
+    padding: 0.3rem;
+    margin: 10px;
+    width: 90%;
+}
+#div_button{
+    text-align: left;
+    margin-left: 2%;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    width: 20%;
+}
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.3s;
+}

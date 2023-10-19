@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registro de usuario</title>
+  <meta name="author" content="Zaira López">
+  <link rel="stylesheet" type="text/css" href="/css/proyecto/registro.css">
+</head>
+
+<body>
+  <div id="contenedor">
+    <h1>Formulario de alta</h1>
+    <form>
+        <h2>Nombre y apellidos</h2>
+        <div class="container_section">
+          <span class="completo">
+            <input id="nombre" name="nombre" value="" placeholder="Nombre">
+          </span>
+          <span class="completo">
+            <input id="apellido1" name="apellido1" value="" placeholder="Primer apellido">
+          </span>
+          <span class="completo">
+            <input id="apellido2" name="apellido2" value="" placeholder="Segundo Apellido"> 
+          </span>
+        </div>
+        <h2>Dirección</h2>
+        <div id="direccion_container">
+          <span class="completo">
+            <input id="direccion" name="direccion" value="" placeholder="Calle, número, piso, puerta">
+          </span>
+          <span class="completo">
+            <input id="codigopostal" name="codigopostal" value="" placeholder="Código postal">
+          </span>
+          <span class="completo">
+            <input id="municipio" name="municipio" value="" placeholder="Municipio">
+          </span>
+          <span class="completo">
+            <select id="provincia" name="provincia">
+              <option value="">Provincia</option>
+              <option value="provincia1">Provincia 1</option>
+              <option value="provincia2">Provincia 2</option>
+              <option value="provincia3">Provincia 3</option>
+            </select>
+          </span>
+          <span class="completo">
+            <select id="pais" name="pais">
+              <option value="">País</option>
+              <option value="pais1">país 1</option>
+              <option value="pais2">país 2</option>
+              <option value="pais3">país 3</option>
+            </select>
+          </span>
+        </div>
+        <h2>Contacto</h2>
+        <div class="container_section">
+          <span class="completo">
+            <input type="email" id="emailInput"  placeholder="Correo electrónico">
+          </span>
+          <span class="completo">
+            <input id="telefonomovil" name="telefonomovil" value="" placeholder="Teléfono">
+          </span>
+        </div>
+        <div id="div_button">
+          <button type="button" onclick="redirectToHome()">Registrarme</button>
+        </div>
+    </form>
+  </div>
+  <script>
+    function redirectToHome() {
+        window.location.href = "login.html";
+    }
+</script>
+</body>
+
+</html>

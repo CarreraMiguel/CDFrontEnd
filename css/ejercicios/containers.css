@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+}
+.fixed{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+.static{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
+.relative{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+}
+.absolute{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}
