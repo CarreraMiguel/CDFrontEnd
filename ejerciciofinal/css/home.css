@@ -6,7 +6,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets.img/proyecto/comida.jpg);
+    background-image: url(/ejerciciofinal/img/comida.jpg);
     background-size: 35rem;
     height: 20vh;
     padding: 1rem;
@@ -41,7 +41,7 @@ header{
     font-weight: 400;
 }
 ul{
-    list-style-image: url(/assets.img/proyecto/foodicon.png);
+    list-style-image: url(/ejerciciofinal/img/foodicon.png);
 }
 li > span{
     padding: 5px;
@@ -74,11 +74,11 @@ footer{
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
     header{
-        background-image: url(/assets.img/proyecto/header_media.jpg);
+        background-image: url(/ejerciciofinal/img/header_media.jpg);
     }
 }
 @media screen and (max-width: 767px){
     header{
-        background-image: url(/assets.img/proyecto/header_peque.png);
+        background-image: url(/ejerciciofinal/img/header_peque.png);
     }
 }

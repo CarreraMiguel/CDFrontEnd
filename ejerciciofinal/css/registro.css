@@ -3,7 +3,7 @@ body{
     text-align: center;
     justify-content: center;
     margin-top: 10%;
-    background-image: url(/assets.img/proyecto/background_register.jpg);
+    background-image: url(/ejerciciofinal/img/background_register.jpg);
 }
 #contenedor{
     background-color: rgb(202, 142, 122);
