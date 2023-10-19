@@ -1,84 +1,84 @@
-body{
-    background-color: antiquewhite;
-    margin: 0;
+body {
+  background-color: antiquewhite;
+  margin: 0;
 }
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/ejerciciofinal/img/comida.jpg);
-    background-size: 35rem;
-    height: 20vh;
-    padding: 1rem;
-    border-bottom: 20px solid brown;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./../img/comida.jpg);
+  background-size: 35rem;
+  height: 20vh;
+  padding: 1rem;
+  border-bottom: 20px solid brown;
 }
-#header-div{
-    background-color: rgba(255, 0, 0, 0.329);
+#header-div {
+  background-color: rgba(255, 0, 0, 0.329);
 }
-#header-div h1{
-    color: white;
-    padding: 10px;
-    margin: none;
+#header-div h1 {
+  color: white;
+  padding: 10px;
+  margin: none;
 }
-#header-div h2{
-    color: white;
-    padding: 10px;
-    margin: none;
+#header-div h2 {
+  color: white;
+  padding: 10px;
+  margin: none;
 }
-#description{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
+#description {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
-#description h3{
-    text-align: center;
-    color: rgb(117, 18, 18);
-    font-weight: 900;
-    font-size: 150%;
+#description h3 {
+  text-align: center;
+  color: rgb(117, 18, 18);
+  font-weight: 900;
+  font-size: 150%;
 }
-#description p{
-    font-size: 110%;
-    font-weight: 400;
+#description p {
+  font-size: 110%;
+  font-weight: 400;
 }
-ul{
-    list-style-image: url(/ejerciciofinal/img/foodicon.png);
+ul {
+  list-style-image: url(./../img/foodicon.png);
 }
-li > span{
-    padding: 5px;
-    color: rgb(117, 18, 18);
-    font-size: 120%;
-    font-weight: 800;
+li > span {
+  padding: 5px;
+  color: rgb(117, 18, 18);
+  font-size: 120%;
+  font-weight: 800;
 }
-li{
-    font-size: 110%;
-    font-weight: 400;
+li {
+  font-size: 110%;
+  font-weight: 400;
 }
-#takeaway_container{
-    font-weight: 900;
-    font-size: 150%;
+#takeaway_container {
+  font-weight: 900;
+  font-size: 150%;
 }
-#takeaway_container a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: rgb(117, 18, 18);
-    text-decoration: none;
+#takeaway_container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: rgb(117, 18, 18);
+  text-decoration: none;
 }
-footer{
-    text-align: center;
-    background-color: brown ;
-    padding: 1rem;
-    color: white;
+footer {
+  text-align: center;
+  background-color: brown;
+  padding: 1rem;
+  color: white;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px){
-    header{
-        background-image: url(/ejerciciofinal/img/header_media.jpg);
-    }
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  header {
+    background-image: url(./../img/header_media.jpg);
+  }
 }
-@media screen and (max-width: 767px){
-    header{
-        background-image: url(/ejerciciofinal/img/header_peque.png);
-    }
+@media screen and (max-width: 767px) {
+  header {
+    background-image: url(./../img/header_peque.png);
+  }
 }
