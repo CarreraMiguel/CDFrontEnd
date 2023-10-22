@@ -1,9 +1,11 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    text-align: center;
     justify-content: center;
-    margin-top: 10%;
+    align-items: center;
+    margin: 0;
     background-image: url(/ejerciciofinal/img/background_register.jpg);
+    height: 100vh;
 }
 #contenedor{
     background-color: rgb(202, 142, 122);
@@ -51,7 +53,7 @@ button{
     width: 20%;
 }
 button:hover{
-    opacity: 0.7;
+    opacity: 0.5;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
